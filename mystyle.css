@@ -1,0 +1,137 @@
+
+@media screen and (max-width: 620px) {
+    nav a {
+        width: 49%;
+    }
+}
+@media screen and (max-width: 300px) {
+    nav a {
+        width: 100%;
+    }
+}
+body {
+    margin: 0;
+    height: 2600px;
+    background: #ffffff;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden],
+template {
+    display: none;
+}
+
+.container{
+    width: 990px;
+    margin: 0 auto;
+    clear: both;
+    background: #fcfcfc;
+}
+.wrapper{
+    margin: 0 20px;
+}
+header{
+    height: 105px;
+    background: #faf9f9;
+}
+nav{
+    float: right;
+}
+li{
+    font-family: sans-serif;
+    list-style: none;
+    display: inline;
+    margin-right: 4px;
+}
+li a{
+    text-decoration: none;
+    color: #531604;
+}
+.active{
+    border-radius: 8px;
+    border: solid 1px #531604;
+    background: #531604;
+    padding: 5px;
+}
+figure{
+    margin: 0 auto;
+    float: left;
+}
+.active a{
+    color:#d8c197;
+}
+.restoran{
+    color: #b88f3f;
+    padding-left: 20px;
+}
+.povar{
+     background: url("image/backgroun.png");
+     height: 480px;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.fill2 {
+    background: #3A5B67;
+    height: 400px;
+
+}
+.polosa{
+    background: url("image/menu.png");
+    height: 140px;
+    position: absolute;
+    width: 990px;
+    top:-25px
+}
+.first{
+    z-index: 50;
+    position: relative;
+}
+.polosa2{
+    background: url("image/menu2.png");
+    height: 140px;
+    position: absolute;
+    width: 990px;
+    top:380px;
+    background-repeat: no-repeat;
+}
+.textur{
+    background: url("image/texture.png")#f2f2f2;
+    height: 1125px;
+}
+.pattern{
+    background: url("image/pattern.png") repeat-x;
+    height: 345px;
+    margin-top: -15px;
+}
+.white{
+    background: #ffffff;
+    height: 58px;
+}
+.fond{
+    background: #310302;
+    height: 2495px;
+}
