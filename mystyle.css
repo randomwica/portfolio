@@ -135,3 +135,44 @@ figure{
     background: #310302;
     height: 2495px;
 }
+.povar h1,h2{
+    width: 300px;
+    margin: 0;
+    display: inline;
+    font-size: 35px;
+}
+.povar h1{
+    color: #b88f3f;
+    text-transform: uppercase;
+    line-height: 1.016;
+}
+.povar h2{
+    color:#ffffff;
+    text-transform: uppercase;
+    line-height: 1.016;
+}
+.povar article {
+     padding-top: 105px;
+}
+.container2{
+    width: 950px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.povar p{
+    width: 450px;
+    font-size: 20px;
+    color: #d8c197;
+}
+.button{
+    height: 55px;
+    width: 205px;
+    border: solid #b88f3f;
+    border-radius: 40px;
+    background: #b88f3f;
+}
+.button p{
+    color: #fffffe;
+    margin: 15px 5px 5px 25px;
+
+}
