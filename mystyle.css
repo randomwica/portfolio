@@ -11,8 +11,8 @@
 }
 body {
     margin: 0;
-    height: 2600px;
-    background: #ffffff;
+    height: 100%;
+    background: #310302;
 }
 article,
 aside,
@@ -131,10 +131,7 @@ figure{
     background: #ffffff;
     height: 58px;
 }
-.fond{
-    background: #310302;
-    height: 2495px;
-}
+
 .povar h1,h2{
     width: 300px;
     margin: 0;
@@ -164,15 +161,54 @@ figure{
     font-size: 20px;
     color: #d8c197;
 }
-.button{
+div.button{
     height: 55px;
     width: 205px;
     border: solid #b88f3f;
     border-radius: 40px;
     background: #b88f3f;
+    margin: 0;
 }
 .button p{
     color: #fffffe;
-    margin: 15px 5px 5px 25px;
+    margin: 15px 0px 0px 35px;
+    width: 130px;
 
+}
+.button span{
+    background: url("image/strela.png") no-repeat;
+    height: 14px;
+    width: 15px;
+    /* position: absolute; */
+    display: block;
+    margin: -18px 0 0 172px;
+}
+.button {
+    -webkit-box-shadow:
+        0px 6px 16px 0px;
+    box-shadow:
+        0px 6px 16px 0px;
+}
+
+.button:hover{
+    -webkit-box-shadow:
+        0px 16px 16px 0px;
+    box-shadow:
+        0px 16px 16px 0px;
+    -moz-box-shadow:
+        0px 16px 16px 0px;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    -moz-transition: 2s
+    -webkit-transition: 2s
+}
+.button:active{
+    -webkit-box-shadow:
+        16px 16px 16px 16px;
+    box-shadow:
+        16px 16px 10px 10px;
+}
+.button a{
+    text-decoration: none;
+    color: #fffffe;
 }
