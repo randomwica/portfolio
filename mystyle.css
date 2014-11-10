@@ -164,16 +164,15 @@ figure{
 div.button{
     height: 55px;
     width: 205px;
-    border: solid #b88f3f;
     border-radius: 40px;
     background: #b88f3f;
     margin: 0;
 }
 .button p{
     color: #fffffe;
-    margin: 15px 0px 0px 35px;
+    padding: 15px 0px 0px 35px;
     width: 130px;
-
+    margin: 0;
 }
 .button span{
     background: url("image/strela.png") no-repeat;
@@ -184,29 +183,23 @@ div.button{
     margin: -18px 0 0 172px;
 }
 .button {
-    -webkit-box-shadow:
-        0px 6px 16px 0px;
+    -webkit-box-shadow:0px 6px 16px 0px;
     box-shadow:
         0px 6px 16px 0px;
 }
 
 .button:hover{
-    -webkit-box-shadow:
-        0px 16px 16px 0px;
-    box-shadow:
-        0px 16px 16px 0px;
-    -moz-box-shadow:
-        0px 16px 16px 0px;
+    -webkit-box-shadow:-12px 37px 37px -22px #400000;
+    box-shadow: -12px 37px 37px -22px #400000;
+    -moz-box-shadow: -12px 37px 37px -22px #400000;
     -o-transition-duration: 2s;
     transition-duration: 2s;
     -moz-transition: 2s
     -webkit-transition: 2s
 }
 .button:active{
-    -webkit-box-shadow:
-        16px 16px 16px 16px;
-    box-shadow:
-        16px 16px 10px 10px;
+    -webkit-box-shadow:-12px 37px 26px -43px #400000 inset;
+    box-shadow: -12px 37px 26px -43px #400000 inset;
 }
 .button a{
     text-decoration: none;
