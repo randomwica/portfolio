@@ -172,7 +172,7 @@ div.button{
     color: #fffffe;
     padding: 15px 0px 0px 35px;
     width: 130px;
-
+    margin: 0;
 }
 .button span{
     background: url("image/strela.png") no-repeat;
@@ -183,6 +183,7 @@ div.button{
     margin: -38px 0 0 172px;
 }
 .button {
+<<<<<<< HEAD
     -webkit-box-shadow: 0px 6px 16px 0px #210d08;
     box-shadow:  0px 6px 16px 0px #210d08;
 }
@@ -191,15 +192,31 @@ div.button{
     -webkit-box-shadow: 0px 16px 16px 0px;
     box-shadow: 0px 16px 16px 0px;
     -moz-box-shadow: 0px 16px 16px 0px;
+=======
+    -webkit-box-shadow:0px 6px 16px 0px;
+    box-shadow:
+        0px 6px 16px 0px;
+}
+
+.button:hover{
+    -webkit-box-shadow:-12px 37px 37px -22px #400000;
+    box-shadow: -12px 37px 37px -22px #400000;
+    -moz-box-shadow: -12px 37px 37px -22px #400000;
+>>>>>>> origin/master
     -o-transition-duration: 2s;
     transition-duration: 0.2s;
     -moz-transition: 0.2s
     -webkit-transition: 0.2s
 }
 .button:active{
+<<<<<<< HEAD
     -webkit-box-shadow: inset 1px 0px 0px 0px rgb(171 128 44);
     -moz-box-shadow: inset 1px 0px 0px 0px rgb(171 128 44);
     box-shadow: inset 1px 0px 0px 0px rgb(171 128 44);
+=======
+    -webkit-box-shadow:-12px 37px 26px -43px #400000 inset;
+    box-shadow: -12px 37px 26px -43px #400000 inset;
+>>>>>>> origin/master
 }
 .button a{
     text-decoration: none;

@@ -1,0 +1,138 @@
+body{
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    color: #303030;
+    background-color: #FFF;
+    line-height: 15px;
+    width: 100%;
+    border: 0px none;
+    height: auto;
+}
+HTML, BODY, UL, LI, DL, DT, DD, H1, H2, H3, H4, H5, H6, P, FORM {
+    margin: 0px;
+    padding: 0px;
+}
+/*внутренность */
+.wrapper {
+    width: 860px;
+    margin: 240px auto;
+}
+/* пагинация */
+li{
+    display: inline-block;
+    list-style: none;
+}
+.active{
+    width: 70px;
+    height: 20px;
+    background: #959595;
+    border-radius: 3px;
+    padding: 4px;
+    color: #fbfbfb;
+    font-weight: bold;
+}
+.page{
+    padding-left: 10px;
+    display: inline-block;
+    padding: 0px 9px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+/* Главная новость */
+.bololo{
+    height: 270px;
+    width: 300px;
+    margin: 0;
+    float:left;
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.novelle{
+    background: #4c4c4c;
+    height: 70px;
+    margin: 0;
+    margin-top: -5px;
+}
+
+.data {
+    color:#cfcfcf;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.anonce{
+    color: #fcfcfc;
+}
+
+/* Комментарии */
+.comment{
+    margin-left: 10px;
+    width: 330px;
+    float: left;
+}
+.comment a{
+    color: #6c6c6c;
+}
+.list{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.comment span{
+    font-weight: bold;
+    width: 15px;
+    height: 10px;
+    background: #ebecf0;
+}
+.comment div{
+    margin-bottom: 8px;
+    clear: both;
+}
+.hot{
+    background: #fc2729;
+    height:20px;
+    color: #ffffff;
+    margin: auto 4px;
+    position: relative;
+    line-height: 19px;
+    display: inline-block;
+    padding: 0 3px;
+}
+.ponytail {
+    border: 3px solid transparent;
+    border-left: 3px solid #fc2729;
+    border-top: 3px solid #fc2729;
+    position: absolute;
+    top: 19px;
+    left: 12px;
+}
+/*форма поиска */
+div.search{
+float: left}
+/*Третья колонка новостей */
+.day_news{
+    float: left;
+    margin-left: 30px;
+}
+.news_active {
+    color:#d31f10;
+}
+.day_news li {
+    padding-left: 4px;
+    width: 75px;
+    height: 15px;
+}
+.day_news li{
+    border: solid #dcdcdc;
+}
+li.news_active{
+    border-bottom:0;
+}
+li.top_news{
+    border-bottom: solid 2px #cfdedb;
+    background: #f4f4f4;
+}
