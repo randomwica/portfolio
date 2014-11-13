@@ -112,27 +112,38 @@ h1{
 }
 /*форма поиска */
 div.search{
-float: left}
+    float: left;
+    margin-bottom: 5px;
+}
+
 /*Третья колонка новостей */
 .day_news{
     float: left;
-    margin-left: 30px;
+    margin-top: -62px;
+    display: block;
 }
 .news_active {
     color:#d31f10;
 }
+
 .day_news li {
     padding-left: 4px;
     width: 75px;
     height: 15px;
 }
+li.top_news{
+    border-bottom: solid 2px #cfdedb;
+    background: #f4f4f4;
+}
 .day_news li{
-    border: solid #dcdcdc;
+    border: solid 1px #dcdcdc;
+    border-bottom: 0px;
 }
 li.news_active{
     border-bottom:0;
 }
-li.top_news{
-    border-bottom: solid 2px #cfdedb;
-    background: #f4f4f4;
+div.tab{
+    border-bottom: 2px solid #dcdcdc;
+    width: 85px;
+    margin-left: 80px;
 }
