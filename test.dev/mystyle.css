@@ -46,6 +46,7 @@ li{
     width: 300px;
     margin: 0;
     float:left;
+    margin-bottom: 15px;
 }
 h1{
     margin-bottom: 15px;
@@ -64,6 +65,10 @@ h1{
     color:#cfcfcf;
     margin-left: 10px;
     padding-top: 15px;
+}
+p.date{
+    width: 100px;
+
 }
 .anonce{
     color: #fcfcfc;
@@ -90,7 +95,6 @@ h1{
 }
 .comment div{
     margin-bottom: 8px;
-    clear: both;
 }
 .hot{
     background: #fc2729;
@@ -108,28 +112,35 @@ h1{
     border-top: 3px solid #fc2729;
     position: absolute;
     top: 19px;
-    left: 12px;
+    left: 8px;
 }
 /*форма поиска */
 div.search{
     float: left;
     margin-bottom: 5px;
+
+}
+input{
+    margin-bottom: 26px;
 }
 
 /*Третья колонка новостей */
 .day_news{
     float: left;
-    margin-top: -62px;
+    margin-top: -83px;
     display: block;
+    margin-left: 25px;
+    margin-bottom: 0;
 }
 .news_active {
-    color:#d31f10;
+    color:#fc2729;
 }
 
 .day_news li {
     padding-left: 4px;
     width: 75px;
-    height: 15px;
+    height: 30px;
+    line-height: 30px;
 }
 li.top_news{
     border-bottom: solid 2px #cfdedb;
@@ -147,3 +158,56 @@ div.tab{
     width: 85px;
     margin-left: 80px;
 }
+div.last_news{
+    float: right;
+}
+.actual{
+    width: 191px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    letter-spacing: 1px
+}
+span.hot_time{
+    color: #fc2729;
+}
+.dotted{
+    border-bottom: dotted #a2a2a2;
+    margin-bottom: 5px;
+}
+.ponytail_2{
+    border: 3px solid transparent;
+    border-right: 3px solid #fc2729;
+    border-top: 3px solid #fc2729;
+    position: absolute;
+    top: 19px;
+    left: 4px;
+}
+/*Новостной блок с картинками */
+.today{
+    float: left;
+    width: 660px;
+}
+.today h1{
+    font-size:20px;
+    color: black;
+    float: left;
+    padding-left: 10px;
+}
+.today p{
+    float: left;
+    width: 430px;
+    padding-left: 10px;
+}
+.today img{
+    float: left;
+}
+.date{
+    color: #999a9c;
+    font-size: 8px;
+}
+.comment_new{
+
+
+}
+
+
