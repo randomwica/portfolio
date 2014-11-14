@@ -53,6 +53,7 @@ h1{
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 30px;
+    width: 485px;
 }
 .novelle{
     background: #4c4c4c;
@@ -65,10 +66,6 @@ h1{
     color:#cfcfcf;
     margin-left: 10px;
     padding-top: 15px;
-}
-p.date{
-    width: 100px;
-
 }
 .anonce{
     color: #fcfcfc;
@@ -98,21 +95,21 @@ p.date{
 }
 .hot{
     background: #fc2729;
-    height:20px;
+    height: 14px;
     color: #ffffff;
-    margin: auto 4px;
+    margin: 1px 1px;
     position: relative;
-    line-height: 19px;
+    line-height: 16px;
     display: inline-block;
-    padding: 0 3px;
+    padding: 0px 3px;
 }
 .ponytail {
     border: 3px solid transparent;
     border-left: 3px solid #fc2729;
     border-top: 3px solid #fc2729;
     position: absolute;
-    top: 19px;
-    left: 8px;
+    top: 13px;
+    left: 5px;
 }
 /*форма поиска */
 div.search{
@@ -179,7 +176,7 @@ span.hot_time{
     border-right: 3px solid #fc2729;
     border-top: 3px solid #fc2729;
     position: absolute;
-    top: 19px;
+    top: 13px;
     left: 4px;
 }
 /*Новостной блок с картинками */
@@ -195,7 +192,6 @@ span.hot_time{
 }
 .today p{
     float: left;
-    width: 430px;
     padding-left: 10px;
 }
 .today img{
@@ -204,10 +200,11 @@ span.hot_time{
 .date{
     color: #999a9c;
     font-size: 8px;
-}
-.comment_new{
-
+    width: 65px;
 
 }
 
+p.anonce_news {
+    width: 485px;
+}
 
