@@ -1,36 +1,43 @@
 body{
-    font-family: Arial,sans-serif;
-    font-size: 12px;
-    color: #303030;
-    background-color: #FFF;
-    line-height: 15px;
-    width: 100%;
-    border: 0px none;
-    height: auto;
+font-family: Arial,sans-serif;
+font-size: 12px;
+color: #303030;
+background-color: #FFF;
+line-height: 15px;
+width: 100%;
+border: 0px none;
+height: auto;
 }
-HTML, BODY, UL, LI, DL, DT, DD, H1, H2, H3, H4, H5, H6, P, FORM {
-    margin: 0px;
-    padding: 0px;
+* {
+margin: 0px;
+padding: 0px;
 }
-/*внутренность */
-.wrapper {
-    width: 860px;
-    margin: 240px auto;
-}
-/* пагинация */
 li{
     display: inline-block;
     list-style: none;
+    font-weight: bold;
+    letter-spacing: 0.4px;
 }
-.active{
-    width: 70px;
-    height: 20px;
+/*внутренность */
+.wrapper {
+width: 860px;
+margin: 240px auto;
+}
+/* пагинация */
+li.active{
     background: #959595;
     border-radius: 3px;
-    padding: 4px;
-    color: #fbfbfb;
+    padding: 4px 9px;
     font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.4px;
 }
+.active a{
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
 .page{
     padding-left: 10px;
     display: inline-block;
@@ -39,6 +46,7 @@ li{
     margin-bottom: 8px;
     border-radius: 3px;
     font-weight: bold;
+    letter-spacing: 0.7px;
 }
 /* Главная новость */
 .bololo{
@@ -51,9 +59,9 @@ li{
 h1{
     margin-bottom: 15px;
     font-size: 25px;
-    letter-spacing: 1px;
-    line-height: 30px;
     width: 485px;
+    margin-top: 10px;
+    letter-spacing: 0.7px;
 }
 .novelle{
     background: #4c4c4c;
@@ -66,38 +74,49 @@ h1{
     color:#cfcfcf;
     margin-left: 10px;
     padding-top: 15px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
 }
 .anonce{
     color: #fcfcfc;
+    font-weight:bold;
+    letter-spacing: 0.4px;
 }
 
 /* Комментарии */
 .comment{
-    margin-left: 10px;
+    margin-left: 1px;
     width: 330px;
     float: left;
+    margin-top: 6px;
+    padding-left: 7px;
 }
 .comment a{
     color: #6c6c6c;
 }
-.list{
-    margin-bottom: 15px;
-    display: inline-block;
+div.list{
+    margin-bottom: 16px;
+    margin-left: 10px;
 }
-.comment span{
+.comment p{
     font-weight: bold;
-    width: 15px;
-    height: 10px;
     background: #ebecf0;
+    width: 37px;
+    height: 15px;
+    float: left;
+    line-height: 16px;
 }
 .comment div{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    letter-spacing: 0.8px;
+    line-height: 16px;
+
 }
 .hot{
     background: #fc2729;
     height: 14px;
     color: #ffffff;
-    margin: 1px 1px;
+    margin: 1px 5px;
     position: relative;
     line-height: 16px;
     display: inline-block;
@@ -114,30 +133,29 @@ h1{
 /*форма поиска */
 div.search{
     float: left;
-    margin-bottom: 5px;
-
 }
 input{
     margin-bottom: 26px;
+    margin-right: 4px;
 }
 
 /*Третья колонка новостей */
 .day_news{
     float: left;
-    margin-top: -83px;
+    margin-top: -74px;
     display: block;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-bottom: 0;
 }
 .news_active {
     color:#fc2729;
+    letter-spacing: 0px;
+    font-size: 11px;
 }
 
 .day_news li {
-    padding-left: 4px;
-    width: 75px;
-    height: 30px;
-    line-height: 30px;
+    padding: 2px 2px;
+    line-height: 27px;
 }
 li.top_news{
     border-bottom: solid 2px #cfdedb;
@@ -158,17 +176,21 @@ div.tab{
 div.last_news{
     float: right;
 }
+.tabs{
+    margin-left: 7px;
+}
+/*события*/
 .actual{
-    width: 191px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    letter-spacing: 1px
+    width: 182px;
+    margin-bottom: 7px;
+    margin-top: 6px;
+    letter-spacing: 0.4px;
 }
 span.hot_time{
     color: #fc2729;
 }
 .dotted{
-    border-bottom: dotted #a2a2a2;
+    border-bottom: 1px dotted #a2a2a2;
     margin-bottom: 5px;
 }
 .ponytail_2{
@@ -183,6 +205,12 @@ span.hot_time{
 .today{
     float: left;
     width: 660px;
+    padding-bottom: 7px;
+}
+.cover{
+    width: 490px;
+    float: left;
+    margin-top: -1px;
 }
 .today h1{
     font-size:20px;
@@ -192,19 +220,25 @@ span.hot_time{
 }
 .today p{
     float: left;
-    padding-left: 10px;
+    padding-left: 14px;
 }
 .today img{
     float: left;
 }
 .date{
     color: #999a9c;
-    font-size: 8px;
-    width: 65px;
-
+    font-size: 10px;
 }
 
 p.anonce_news {
     width: 485px;
+    letter-spacing: 0.3px;
+    margin-top: -7px;
+    margin-bottom: 7px;
 }
-
+div.category{
+    padding-top: 5px;
+}
+.category a{
+    padding-left: 10px;
+}
